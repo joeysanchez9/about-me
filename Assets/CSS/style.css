@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #d9dcd6;
+    
+}
+
+/*Header attributes */
+header {
+    text-align:left;
+    padding: 50px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #424242;
+    color: white;
+
+}
+
+.header h1{
+    display: inline-block;
+    font-size: 48px;
+    color:white;
+}
+
+.header a{
+    color:white;
+}
+
+.header div ul {
+    list-style-type: none;
+    color:white;
+}
+
+.header div {
+    
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color:white;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 100px;
+}
+/*Subheader picture */
+.pic{
+    
+    width:100%;
+    height: 500px;
+}
+/*aside container attributes for about me, work, and contact me */
+aside{ 
+    
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    font-size:50px;
+    
+}
+/*Attributes for the surf picture */
+.water{
+    display: flex;
+    flex-wrap: wrap;
+    width:400px;
+    position:relative;
+    width: 60%;
+    bottom:40px;
+    
+    padding-left:100px;
+    margin:3px;
+    flex-basis: calc(100%-100px);
+    
+}
+
+.water:first-child{
+    flex-basis:20px;
+}
+
+/*Main container for the rest of the images */
+.container{
+    margin-left: 600px;
+    display:flex;
+    flex-wrap:wrap;
+    border-left: 5px solid black;
+    
+}
+
+.about{
+margin-left: 600px;
+padding-left: 200px;
+display:flex;
+font-size: 50px;
+flex-wrap:wrap;
+border-left: 5px solid black;
+}
+
+.section{
+    font-size: 50px;
+    color: green;
+    
+}
+/*Attributes for surf image */
+.surf{
+    padding-left: 200px;
+    display:flex;
+    flex-wrap: wrap;
+    width:1000px;
+    height: 600px;
+  
+}
+
+/*Attributes for the rest of the images */
+.led, .calc, .run, .pastel{
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    width:780px;
+    margin:10px;
+    
+}
+
+/*Containers for each mouse hover */
+.container :hover .surf{
+    opacity: 0.3;
+}
+
+.container :hover .led{
+    opacity: 0.3;
+}
+
+.container :hover .calc{
+    opacity: 0.3;
+}
+
+.container :hover .pastel{
+    opacity: 0.3;
+}
+
+.container :hover .pastel{
+    opacity: 0.3;
+}
+
+.container :hover .run{
+    opacity: 0.3;
+}
+
+/*Container for when the mouse hovers over images */
+.bottom{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-20%, -20%);
+  -ms-transform: translate(-20%, -20%);
+  text-align: center;
+}
+
+.container :hover .bottom{
+    opacity: 1;
+}
+/*Container for the text that shows for each image when mouse is hovered */
+.text{
+    background-color: #04AA6D;
+    color:white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+/*Last container for the contact me section */
+.container1{
+    border-left: 5px solid black;
+    display: inline;
+    
+    font-size: 50px;
+    padding: 100px;
+    margin-left: 600px;
+}
+.container1 a{
+    color:white;
+}
