@@ -7,4 +7,4 @@ Usage
 Scroll through the website to learn a little bit about me.  Hover over each image to see a preview of what it contains
 
 Contact
-Joey Sancherz joey.sanchez9@gmail.com
+Joey Sanchez joey.sanchez9@gmail.com
